@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html  { font-size: 10px; }
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font: 1.2rem "Karla", sans-serif;
+    background: hsl(204, 43%, 93%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+ul  {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+button  {
+    font: 700 1.5rem "Karla", sans-serif;
+    background: hsl(71, 74%, 54%);
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    border-radius: 7px;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+button:hover  { background: hsl(71, 74%, 45%); }
+
+.button  {
+    display: grid;
+    justify-self: center;
+    margin-top: 2.5rem;
+}
+
+main  {
+    margin: 7rem 2rem;
+    max-width: 30em;
+}
+
+h2  { font-weight: 400; }
+
+p  { 
+    font-size: 1.4rem; 
+    line-height: 2em;
+}
+
+
+
+/* UTILITIES */
+
+.margin-bottom-one-five  { margin-bottom: 1.5rem; }
+.gray-color  { color: hsl(0, 0%, 90%); }
+
+
+/* COLUMN */
+.column  {
+    padding: 2em 3em 3em 2em;
+}
+
+
+
+/* COLUMN-1 */
+
+.column-1  {
+    background: hsl(0, 0%, 100%);
+    border-radius: 7px 7px 0 0;
+}
+
+.column-1 h1  { color: hsl(179, 62%, 43%); }
+
+.column-1 h2  { color: hsl(71, 73%, 54%); }
+
+.column-1 p  { 
+    color: hsl(218, 22%, 67%);
+}
+
+
+
+/* COLUMN-2 */
+
+.column-2  {
+    background: hsl(179, 62%, 43%);
+}
+
+.column-2 .pricing  { font-size: 3rem; }
+
+
+
+/* COLUMN-3 */
+
+.column-3  {
+    background: hsl(179, 62%, 50%);
+    border-radius: 0 0 7px 7px;
+}
